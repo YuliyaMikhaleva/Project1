@@ -1,0 +1,58 @@
+.chatList {
+  padding: 20px 4px 4px 4px;
+  box-sizing: border-box;
+  background-color: #b2dfee;
+  /*border-radius: 10px;*/
+}
+.title {
+  text-align: center;
+  color: black;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.listItem {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /*background-color: darkgray;*/
+  color: white;
+  text-align: left;
+  min-width: 50px;
+  font-size: 10px;
+}
+
+.listItem span {
+  font-size: 10px;
+}
+.buttonAdd {
+  width: 85%;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+.buttonAdd:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.listItemLink {
+  text-decoration: none;
+}
+.listItemLink div {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.chatName span {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  margin: 0;
+}
+
+.chatList_listItem__1mE9X {
+  font-size: 10px;
+}
